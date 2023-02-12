@@ -41,18 +41,19 @@ table{
 
     td{
         border: 1px solid #E479E8;
+        display: flex;
     }
 
     [name="john"]{
         color: #7DFF9E;
         background-color: #E479E8;
-        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
 
     [name="john"]:hover{
         color: #E479E8;
         background-color: #7DFF9E;
-        display: flex;
         align-items: self-end;
         justify-content: end;
     }
@@ -60,7 +61,6 @@ table{
     [name="doe"]{
         color: #E479E8;
         background-color: #7DFF9E;
-        display: flex;
         align-items: self-end;
         justify-content: end;
     }
